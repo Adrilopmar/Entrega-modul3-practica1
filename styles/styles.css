@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background: #000000;
+    margin: 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.cap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 270px;
+    background: url(../images/fons-capçalera.jpg) center center/cover no-repeat;
+}
+.menu-principal{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+}
+.menu-principal a{
+    color: #6C757D;
+}
+.logo{
+    width: 10%;
+    margin:0px 25px;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    width: 60%;
+}
+.menu ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.menu ul a{
+    padding: 5px 10px;
+    border-bottom: 2px solid rgb(0, 0, 0, .0);
+}
+.menu ul i{
+    margin-right: 5px;
+}
+.xarxes{
+    margin-top: 15px;
+    width: 20%;
+}
+.social{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    align-self: flex-end;
+    padding: 5px;
+}
+.tw{
+    margin: 10px 0px;
+}
+.eslogan{
+    margin:  0 auto;
+    color:#fe7f2d;
+    font-size: 2em;
+    opacity: .6;
+}
+
+/*-------hovers ---------*/
+.menu ul a:hover{
+    border-bottom: 2px solid #6C757D;;
+}
+.tw:hover{
+    background: royalblue;
+    color: #fff ;
+}
+.fb:hover{
+    background: royalblue;
+    color: #fff ;
+}
+/*--------article -------------*/
+/*--------section-------------*/
+article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.experiencies{
+    width: 69%;
+    margin: 10px 0;
+    padding: 3px;
+    background: #CED4DA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.sabermes{
+    width:48%;
+}
+
+.contenidor-exp{
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    background: #f1f1f1;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.contenidor-exp5{
+    width: 98%;
+    margin: 5px auto;
+    display: flex;
+    background: #f1f1f1;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.exp{
+    margin: 5px auto;
+    width: 97%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+.exp p,
+.exp5 p{
+    margin-left: 10px;
+}
+.exp5{
+    margin: 5px auto;
+    width: 98%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.fons1{
+    background: url(../images/montfuji.jpg) center/cover no-repeat;
+}
+.fons2{
+    background: url(../images/bolramen.jpg) center/cover no-repeat;
+}
+.fons3{
+    background: url(../images/tradiucions.jpg) center/cover no-repeat;
+}
+.fons4{
+    background: url(../images/arcsfuji.jpg) center/cover no-repeat;
+}
+.exp5{
+    background: url(../images/kanagawa.jpg) center/cover no-repeat ;
+}
+.escapades,
+.gastronomia,
+.tradicions,
+.historia,
+.cultura{
+    background: orangered;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+    color: #f1f1f1;   
+    display: flex; 
+}
+.titol{
+    margin-left: 10px;
+    align-self: flex-end;
+}
+.escrit-exp{
+    margin: auto 15px;
+}
+
+.descripcio span {
+    font-style: italic;
+    text-decoration: none;
+    color: gray;
+}
+/*---------hovers article--------*/ 
+
+.sabermes:hover,
+.sabermes5:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+/*----------- aside ----------*/
+aside{
+    background:#B2ACA9;
+    width: 29%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenidor-link{
+    width: 90%;
+    height: 200px;
+    margin: 5px auto;
+    padding-bottom: 5px;
+    display: flex;
+    background: #C7C3BD;
+    flex-direction: column;
+}
+.fons-aside1{
+    background: url(../images/tecnologia.jpg) center/cover no-repeat;
+}
+.fons-aside2{
+    background:url(../images/animes.jpg) center/cover no-repeat ;
+}
+.link{
+    margin: 5px auto;
+    width: 97%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+}
+.link p{
+    margin-left: 10px;
+}
+.escrit-link1{
+    margin: auto 15px;
+}
+.tecnologia{
+    background: rgba(255, 68, 0, 0.8);
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    color: #f1f1f1;   
+    display: flex; 
+}
+
+.escrit-link1 a{
+    text-decoration: none;
+    color: grey;
+}
+#curt{
+    display: none;
+}
+/*------------hovers aside ------------*/
+.contenidor-link:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+/*-----------------footer ----------------*/
+footer{
+    background: #343A40;
+    width: 100%;
+    color: #f1f1f1;
+    text-align: center;
+   
+}
+.peu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    
+}
+.interes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+    padding: 0;
+}
+.interes1{
+    color: #f1f1f1bd;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 0, 0, .0);
+}
+.copy{
+    margin-bottom: 10px;
+    font-size: small;
+    color: grey;
+}
+/*------------- hover footer --------------*/
+.interes1:hover{
+    border-bottom: 1px solid #f1f1f1bd;
+}
+/*---------- MediaQuery------------------*/
+@media screen and (max-width:1200px){
+    /*------------aside----------------*/
+    #llarg{
+        display: none;
+    }
+    #curt{
+        display: inline;
+    }
+}
+@media screen and (max-width:855px){
+    /*----------------------article----------------*/
+    article{
+        display: inline-block;
+    }
+    .experiencies{
+        width: 100%;
+        background: #343A40;
+    }
+    /*-----------------aside----------------*/
+    aside{
+        width: 100%;
+        flex-direction: row;  
+    }
+}
+@media screen and (max-width:600px){
+    /*-----------Capçalera --------------*/
+    .eslogan{
+        text-align:center;
+    }
+    .menu-principal{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .menu{
+        width: 50%;
+        order: 1;
+        margin: 0 auto;
+    }
+    .menu ul{
+        justify-content: space-around;
+    }
+    .logo,
+    .social{
+        width: 50%;
+    }
+    #menu-amagat{
+        display: none;
+    }
+    /*----------------------- aside---------------*/
+    aside{
+        display: inline-block; 
+        width: 100%;
+    }
+    .contenidor-link{
+        flex-direction: row;
+        height: 150px;
+    }
+    .link{
+        height: 145px;
+        margin: auto 0 auto 5px;
+    }
+    /*-----------footer-----------*/
+    .peu{
+        height: auto;
+    }
+    .interes{
+        flex-direction: column;
+    }
+    .interes1{
+        padding: 10px;
+    }
+}
